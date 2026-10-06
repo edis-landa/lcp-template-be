@@ -1,0 +1,6 @@
+@LCP.Template.BE_HostAddress = http://localhost:5254
+
+GET {{LCP.Template.BE_HostAddress}}/service/api/v1/weather-forecasts
+Accept: application/json
+
+###
